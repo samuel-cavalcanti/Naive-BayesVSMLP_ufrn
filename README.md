@@ -40,8 +40,10 @@ precisão do modelo                | 88%
 ![](Graphs/MLP_validationLoss.png)
 
 **OBS**: foi observado que a partir de **4** épocas  
-a rede começava a apresentar overfitting 
+a rede começava a apresentar overfitting  
+
 ### Função ReLU
+
 ReLU
 A função ReLU é a unidade linear rectificada. É definida como:
 
@@ -60,13 +62,12 @@ fonte: [deeplearningbook](http://deeplearningbook.com.br/funcao-de-ativacao/)
 
 parâmetros utilizados no Naive-Bayes            | valor
 ------------------------------------------------|------
-&alpha;                                         | 1
+coeficiente de Laplace/Lidstone                 | 1
 aprende a probabilidade a priore das classes ?  | Sim
 precisão do modelo                              | 84%
 
 
 **OBS:** não faço a minima ideia da influência do coeficiente de Laplace/Lidstone  
-(o parâmetro  &alpha;)
 
 não  sou capaz de explicar a representação do texto utilizada na avaliação  
 Código abaixo:
