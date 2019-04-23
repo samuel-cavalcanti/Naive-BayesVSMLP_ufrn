@@ -1,4 +1,22 @@
-# Naive-BayesVSMLP
+# Naive-Bayes VS MLP
+
+## Resumo
+Naive-Bayes é um dos mais rápidos algoritmos de classificação. Possui  
+diversas aplicações como detecto de spam, classificação de texto, analise de  
+sentimentos e sistemas de recomendação. Esse repositório foi criado com o   
+objetivo de avaliar e comparar o desempenho do Naive-Bayes em sua tarefa de  
+classificar textos por sentimento. Para isso foi escolhido um conjunto de dados  
+presente na biblioteca keras que contem 25 mil reviews do Internet Movie Database (IMDb),  
+classificadas como reviews positivas e negativas. Para comparar o desempenho do Naive-Bayes  
+foi implementado um Multi Layer Perceptron. Rede que apresentou uma acurácia de 88%.  
+Uma performance levemente superior ao Naive-Bayes, que conseguiu 84%.
+
+## DataSet
+O conjunto de dados utilizado foi o [IMDB movie reviews sentiment classification](https://keras.io/datasets/#imdb-movie-reviews-sentiment-classification) fornecido pela biblioteca  de deep learning Keras. Esse conjunto dados é formado  
+por 25 mil reviews do IMDB, etiquetado pelo sentimento positivo ou negativo.  
+Essas reviews vem preprocessadas onde cada review foi codificado com uma  
+sequencia de inteiros.
+
 
 ## Multi layer Perceptron
 
