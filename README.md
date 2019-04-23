@@ -69,3 +69,25 @@ def vetorize_sequences(sequences,dimension=10000):
 Essa Avaliação foi inpirada no exemplo de classificação binária do livro:  
 [Deep Learning with Python](https://www.amazon.com.br/Deep-Learning-Python-Francois-Chollet/dp/1617294438)   
 [classifying-movie-reviews](https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/3.5-classifying-movie-reviews.ipynb)
+
+**OBS:** devido a um bug no carregamento de datasets no keras. A base de dados utilizada está na pasta DataSet, caso queria carrega-lo manualmente.
+
+__dependências desse repositório:__  
+numpy  
+matplotlib  
+keras  
+scikit-learn
+  
+para instalar as dependências:
+```shell
+pip install numpy  
+```
+```shell
+pip install keras  
+```
+```shell
+pip install matplotlib
+```
+```shell
+pip install scikit-learn
+```
