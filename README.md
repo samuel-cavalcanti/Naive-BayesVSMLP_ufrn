@@ -69,22 +69,6 @@ precisão do modelo                              | 84%
 
 **OBS:** não faço a minima ideia da influência do coeficiente de Laplace/Lidstone  
 
-não  sou capaz de explicar a representação do texto utilizada na avaliação  
-Código abaixo:
-```python
-# 10000 é o número maxímo de palavras em  um review
-def vetorize_sequences(sequences,dimension=10000):
-    results = np.zeros( (len(sequences),dimension))
-
-    for i, sequence in enumerate(sequences):
-        results[i,sequence] = 1 
-    
-    return results
-
-
-
-```
-
 Essa Avaliação foi inpirada no exemplo de classificação binária do livro:  
 [Deep Learning with Python](https://www.amazon.com.br/Deep-Learning-Python-Francois-Chollet/dp/1617294438)   
 [classifying-movie-reviews](https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/3.5-classifying-movie-reviews.ipynb)
