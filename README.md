@@ -67,9 +67,11 @@ aprende a probabilidade a priore das classes ?  | Sim
 precisão do modelo                              | 84%
 
 
-**OBS:** não faço a minima ideia da influência do coeficiente de Laplace/Lidstone  
+**OBS:** Ao final do treinamento do Naive-Bayes é estimada uma matriz de probabilidades condicionais através da frequência
+relativa das palavras em cada review que pertencem a uma determinada classe. Para evitar que essa estimativa seja nula para uma combinação de termo e classe que não
+ocorra na coleção de treinamento, é usada uma suavização de Laplace que incrementa +1 em cada contagem.
 
-Essa Avaliação foi inpirada no exemplo de classificação binária do livro:  
+Essa Avaliação foi inspirada no exemplo de classificação binária do livro:  
 [Deep Learning with Python](https://www.amazon.com.br/Deep-Learning-Python-Francois-Chollet/dp/1617294438)   
 [classifying-movie-reviews](https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/3.5-classifying-movie-reviews.ipynb)
 
